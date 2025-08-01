@@ -1,0 +1,5 @@
+#ignore sensitive credentials and configuration settings
+#ignore google api credentials filr
+credentials.json
+token.json
+config.py

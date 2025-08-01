@@ -1,0 +1,11 @@
+/monthly-reminder/
+|-- app.py                   # The Flask web application
+|-- scheduler.py             # The script that sends emails
+|-- credentials.json         # Your Google API credentials
+|-- token.json               # Your Google API token (generated on first run)
+|-- settings.json            # Stores email configuration from the web UI
+|-- log.txt                  # Stores a log of sent emails
+|-- requirements.txt         # Lists the Python libraries needed
+|-- /templates/
+|   |-- index.html           # The HTML for our web interface
+|   |-- login.html           # The HTML for the login page
